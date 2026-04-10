@@ -1,0 +1,26 @@
+{
+  "status": "ok",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "service": "api-service",
+  "version": "1.2.3",
+  "environment": "production",
+  "dependencies": {
+    "database": {
+      "status": "ok",
+      "response_time_ms": 15
+    },
+    "cache": {
+      "status": "ok",
+      "response_time_ms": 2
+    },
+    "external_api": {
+      "status": "ok",
+      "response_time_ms": 100
+    }
+  },
+  "metrics": {
+    "cpu_usage": 0.15,
+    "memory_usage_mb": 512,
+    "active_requests": 12
+  }
+}
